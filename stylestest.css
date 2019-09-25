@@ -1,0 +1,139 @@
+body {
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  padding:0px;
+  text-align:center;
+  font-family:Arial, sans-serif;
+  font-size:15px;
+}
+
+  #header {
+    width:100%;
+    position:relative;
+    background-color: salmon;
+    font-family:Abril Fatface;
+    font-size:60px;
+    text-align:center;
+    z-index:1;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+  
+  #header:hover {
+    background-color:indianred;
+    color:white;
+  }
+
+h1 {
+  display:block;
+  position:relative;
+  margin:30px 20px 20px 280px;
+  padding:5px;
+  font-family:Abril Fatface;
+  font-size: 30px;
+  text-align:left;
+  border-bottom: solid 1px black;
+  z-index:2;
+}
+
+.content {
+  display:block;
+  position:relative;
+  margin-top: 30px;
+  margin-left: 280px; 
+  margin-right:40px;
+  text-align:justify;
+}
+  
+  p .content {
+    margin-bottom:20px;
+  }
+
+p {
+  margin-top: 10px;
+  font: 15px Arial, sans-serif;
+}
+
+a {
+  color: salmon;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+  .left-column {
+    font-family:sans-serif;
+    font-size:12px;
+    border: dashed 4px salmon;
+    width:170px;
+    height:100%;
+    margin-top:50px;
+    margin-left:40px;
+    padding:12px;
+    position:fixed;
+    z-index:3;
+    overflow: visible;
+    text-align: justify;
+  }
+  
+  .left-column img {
+    width:80%;
+    text-align:center;
+    padding:15px;
+    float:inherit;
+  }
+  
+  .left-column img:hover {
+    background:url(https://previews.123rf.com/images/vikpit/vikpit1401/vikpit140100001/24928773-r%C3%A9sum%C3%A9-palette-d-aquarelle-de-couleurs-bleu-couleur-de-m%C3%A9lange-illustration-vectorielle-un-m%C3%A9lange-de-cou.jpg);
+  }
+  
+  .button-grp {
+    width: 80%; 
+    margin-left: 250px;
+    position:relative;
+    display:inline-block;
+    margin-top:50px;
+    text-align:center;
+  }
+  
+  .button {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background-color:indianred;
+    font-size:30px;
+    font-family:Josefin Sans;
+    color:white;
+    position:static;
+    margin:10px;
+  }
+  
+  .button:hover {
+    background-color:black;
+  }
+  
+  table, th, td {
+    border: solid 1px salmon;
+  }
+  
+  th {
+    background-color:indianred;
+  }
+  
+  th, td {
+    padding:20px;
+  }
+  
+  footer {
+    position:relative;
+    background-color:black;
+    color:white;
+    z-index:3;
+    margin-top:40px;
+    padding-top:10px;
+    padding-bottom:30px;
+    border-top: solid 1px black;
+  }
